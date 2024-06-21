@@ -1,0 +1,83 @@
+body {
+    font-family: "Roboto", sans-serif !important;
+}
+
+
+/* Footer */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+.f-info-links, 
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.f-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/*Cards*/
+.card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+.show-img {
+    height: 30vh;
+}
+
+.btns {
+    display: flex;
+}
+
+.edit-btn {
+    background-color:crimson;
+}

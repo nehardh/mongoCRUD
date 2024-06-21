@@ -1,0 +1,65 @@
+<% layout("/layouts/boilerplate.ejs") %>
+<div class="row">
+  <div class="col-8 offset-2">
+    <h3>Create a New Listing</h3>
+    <br>
+    <form method="POST" action="/listings">
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input  
+          name="listing[title]" 
+          placeholder="Add a catchy title" 
+          type="text" 
+          class="form-control"/>
+      </div>
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea
+        name="listing[description]"
+        class="form-control"
+      ></textarea>
+      </div>
+      <div class="mb-3">
+        <label for="image" class="form-label">Image</label>
+        <input
+        name="listing[image]"
+        placeholder="enter image URL/Link"
+        type="text"
+        class="form-control"
+      />
+      </div>
+      <div class="row">
+          <div class="mb-3 col-md-4">
+            <label for="price" class="form-label">Price</label>
+            <input 
+            name="listing[price]" 
+            placeholder="10000" 
+            type="number"
+            class="form-control" />
+          </div>
+
+          <div class="mb-3 col-md-8">
+            <label for="country" class="form-label">Country</label>
+            <input 
+            name="listing[country]" 
+            placeholder="India" 
+            type="text"
+            class="form-control" />
+          </div>
+      </div>    
+      <div class="mb-3">
+        <label for="location" class="form-label">Location</label>
+        <input
+        name="listing[location]"
+        placeholder="Ananthapur,  Andhra Pradesh"
+        type="text"
+        class="form-control"
+      />
+      </div>
+      <br> <br>
+      <button class="btn btn-dark">Add</button>
+      <br> <br>
+    </form>
+  </div>
+</div>
+    
